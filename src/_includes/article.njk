@@ -1,0 +1,53 @@
+---
+layout: 'base.njk'
+---
+
+
+    <article class="main-article">
+        <div class="photo-container">
+            <div class="overlay-article">
+                
+                <div class="logo-article">
+                  <div class="rainbow-article">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                  </div>
+                
+                </div>
+                <div class="info-article">
+                    <div class="author-article">
+                      
+                      <span class="info-element">Feito por</span>
+                      <span class="info-sub"> {{ author }} </span>
+                    </div>
+                    <div class="date-article">
+                      <span class="info-element">Data da postagem</span>
+                      <span class="info-sub"> {{ page.date | postDate() }}</span>
+                    </div>
+                    <div class="img-alt-article">
+                      <span class="info-element">Descrição</span>
+                      <span class="info-sub">{{ imageAlt }}</span>
+                    </div>
+
+                </div>
+                <div class="title-article">
+                  <span class="title-article-element"> {{ title }}</span>
+                  <span class="subtitle-article-element">{{ subtitle }}</span>
+                </div>
+                <div class="photo-article">
+                  <img src="{{image}}" alt="">
+                </div>
+
+          </div>
+      </div>  
+      <div class="container container--narrow flow">
+
+        
+            {{content | safe}}
+
+      </div>
+    </article>
+  
+  
