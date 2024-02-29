@@ -323,7 +323,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("img/marble.png");
+    background-image: url("/assets/blog/marble.png");
     background-size: cover;
 }
 

@@ -323,7 +323,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url("img/folha.jpg");
+    background-image: url("/assets/blog/folha.jpg");
     background-size: cover;
 }
 
