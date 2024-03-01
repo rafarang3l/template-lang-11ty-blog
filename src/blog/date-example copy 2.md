@@ -2,8 +2,8 @@
 title: Put here the title
 author: Put here the author's name
 subtitle: Put here the subtitles
-#  if wante put date, example- date: 2024-02-15
-#  Don't needeed, already have a filter in eleventyConfig
+#  if want to put date, example- date: 2024-02-15
+#  Don't need date, already have a filter in eleventyConfig
 # for the tags: if you want that the post be in featured page, put the tag:["post","featured"]
 tags: ["post", "featured"]
 # example for the image: put the image path 
