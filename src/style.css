@@ -218,37 +218,37 @@ body {
     position: relative;
     padding: 0;
     width: 17vmin;
-  }
-  
-  
-  
-  
-  
-  .blog-dropdown {
+}
+
+
+
+
+
+.blog-dropdown {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
-  }
-  
-  .dropdown-title {
+}
+
+.dropdown-title {
     display: flex;
     align-items: center;
-    
-  }
-  
-  .dropdown-title>a>span>svg {
+
+}
+
+.dropdown-title>a>span>svg {
     padding: 0;
     margin-left: 5px;
     transform: rotate(-90deg);
     transition: 0.2s ease-in;
-  }
-  
-  .dropdown-container:hover .dropdown-title>a>span>svg {
+}
+
+.dropdown-container:hover .dropdown-title>a>span>svg {
     transform: rotate(0deg);
-  }
-  
-  .dropdown-item {
+}
+
+.dropdown-item {
     /* border: solid 1px black; */
     border-radius: 0 0 15px 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -268,33 +268,33 @@ body {
     transition: visibility 1s, opacity 0.5s, all 0.3s ease-in;
     opacity: 0;
     z-index: 2;
-  }
-  
-  .dropdown-container:hover .dropdown-item {
+}
+
+.dropdown-container:hover .dropdown-item {
     visibility: visible;
     height: 6.2em;
     opacity: 1;
-  }
-  
-  
-  /* .dropdown-item:hover .dropdown-item {
+}
+
+
+/* .dropdown-item:hover .dropdown-item {
     visibility: visible;
     height: 6.2em;
     opacity: 1;
   } */
-  
-  
-  .dropdown-submenu {
+
+
+.dropdown-submenu {
     position: relative;
     color: black;
     border-left: 1px solid black;
     margin-left: 12px;
     padding-left: 5px;
-  }
-  
-  .dropdown-submenu:hover {
+}
+
+.dropdown-submenu:hover {
     color: red;
-  }
+}
 
 
 
@@ -853,7 +853,275 @@ body {
 }
 
 
+.grid-container {
+    /* border: solid 10px black; */
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.grid-elements {
+    /* border: solid 10px orange; */
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-top {
+    /* border: solid 10px red; */
+    width: 100%;
+    height: 20%;
+}
+
+.grid-container {
+    margin: 22px 0 22px 0;
+    /* border: solid 10px black; */
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-elements {
+    /* border: solid 10px orange; */
+    width: 90%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-top {
+    /* border: solid 10px red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-title {
+    /* border: solid 10px rebeccapurple; */
+    width: 27%;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.grid-blog-button {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+
+.grid-blog-button a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in;
+    height: max-content;
+}
+
+.blog-button-style {
+    border-radius: 20px;
+    height: fit-content;
+    background-color: red;
+    font-weight: lighter;
+    width: 29px;
+    text-align: center;
+}
+
+
+
+.grid-blog {
+    /* border: solid 10px purple; */
+    width: 100%;
+    height: 72%;
+    display: grid;
+    grid-template-columns: [first] 50% [line2] 30% [line3] 20% [end];
+    grid-template-rows: 50% 50%;
+    gap: 12px;
+    padding-right: 12px;
+
+}
+
+#item1 {
+    /* border: 5px solid #f00; */
+    border-radius: 15px;
+    grid-column-start: 1;
+    grid-column-end: span line2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    border-radius: 15px;
+}
+
+#item2 {
+    /* border: 5px solid #0f0; */
+    border-radius: 15px;
+    grid-column-start: 2;
+    grid-column-end: span line3;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+#item3 {
+    /* border: 5px solid #00f; */
+    border-radius: 15px;
+    grid-column-start: 3;
+    grid-column-end: span end;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+#item4 {
+    /* border: 5px solid #ff0; */
+    border-radius: 15px;
+    grid-column-start: 3;
+    grid-column-end: span end;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    height: 95%;
+}
+
+.grid-blog-element {
+    /* border: solid 10px salmon; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.blog-item {
+    position: relative;
+}
+
+.blog-item img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.blog-item span {
+    /* border: solid 10px black; */
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+}
+
+#item1 span:hover {
+    background-color: rgb(120, 68, 68);
+    mix-blend-mode: hard-light;
+}
+
+#item2 span:hover {
+    background-color: rgb(133, 117, 76);
+    mix-blend-mode: hard-light;
+}
+
+#item3 span:hover {
+    background-color: rgb(49, 74, 49);
+    mix-blend-mode: hard-light;
+}
+
+#item4 span:hover {
+    background-color: rgb(77, 49, 77);
+    mix-blend-mode: hard-light;
+}
+
+.blog-grid-text {
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 10% 10% 10%;
+}
+
+.blog-grid-text h1 {
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+.h1-lite-text {
+    font-size: 1.2em;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+.blog-grid-text p {
+    font-family: "Raleway", sans-serif;
+
+}
+
+
+@media (max-width:900px) {
+    .grid-container {
+        height: max-content;
+        margin: 10% 0 10% 0;
+    }
+    .grid-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+    .grid-blog {
+        display: block;
+        width: 90%;
+    }
+    .grid-title {
+        width: fit-content;
+        font-size: 16px;
+    }
+    .grid-blog-button {
+        font-size: 16px;
+    }
+
+    #item1 {
+        height: 230px;
+        margin-bottom: 12px;
+    }
+
+    #item2 {
+        height: 190px;
+        margin-bottom: 12px;
+    }
+
+    #item3 {
+        height: 140px;
+        margin-bottom: 12px;
+    }
+
+    #item4 {
+        height: 140px;
+    }
+
+    .blog-grid-text p {
+        margin-top: 12px;
+        font-family: "Raleway", sans-serif;
+        font-size: 12px;
+    }
+
+}
 
 
 .team-highlight {
