@@ -176,9 +176,9 @@
             </div>
             
 
-            {%- for post in collections.featured -%}
-             {% include 'blog-snippet.njk'%}
-            {%- endfor -%}
+           {%- for post in collections.featured | reverse-%}
+          {% include 'article-snippet.njk'%}
+        {%- endfor -%}
             <div class="team-highlight">
                 <p>Conheça a Equipe</p>
             </div>
