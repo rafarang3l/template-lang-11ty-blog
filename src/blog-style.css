@@ -157,6 +157,7 @@ strong {
 section,
 .section {
   padding: min(10vh, 10em) 0;
+  padding-top: 10%;
 }
 
 
@@ -182,6 +183,12 @@ section,
 .container--narrow {
   max-width: 65rem;
 }
+
+.container--narrow p{
+  line-break: anywhere;
+}
+
+
 
 .flex-group {
   display: flex;
@@ -797,10 +804,14 @@ section,
     object-fit: cover;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .photo-container {
       height: 100vmax;
     }
+    .title-article {
+      margin-top: 21vmax;
+    }
+
     .title-article-element {
       font-size: 5vmin;
     }
@@ -812,6 +823,14 @@ section,
 
   .main-article {
     margin-bottom: 3rem;
+    padding-top: 8%;
+  }
+
+  @media (max-width:1000px) {
+    .main-article {
+      padding-top: 13em;
+    }    
+
   }
   
   .main-article__figure figcaption {
