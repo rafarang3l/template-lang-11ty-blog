@@ -433,6 +433,8 @@ section,
   /* border: solid 10px yellow; */
   margin-top: 12px;
   width: 100%;
+  display: flex;
+  gap: 5px;
 }
 
 .footer-social-icon img {
@@ -652,6 +654,10 @@ section,
   Homepage
   /////////////////////// */
 
+.hero {
+  padding-top: 10%;
+}
+
 .hero>div {
   display: grid;
   grid-auto-flow: row;
@@ -767,6 +773,8 @@ section,
     font-weight: bold;
     font-size: 14px;
   }
+
+    
 
   .info-sub {
     font-weight: bold;
