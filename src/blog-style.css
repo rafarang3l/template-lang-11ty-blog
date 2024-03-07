@@ -157,7 +157,7 @@ strong {
 section,
 .section {
   padding: min(10vh, 10em) 0;
-  padding-top: 10%;
+  padding-top: 40vmin;
 }
 
 
@@ -662,7 +662,7 @@ section,
   /////////////////////// */
 
 .hero {
-  padding-top: 10%;
+  padding-top: 40vmin;
 }
 
 .hero>div {
