@@ -184,7 +184,7 @@ section,
   max-width: 65rem;
 }
 
-.container--narrow p{
+.container--narrow a{
   line-break: anywhere;
 }
 
