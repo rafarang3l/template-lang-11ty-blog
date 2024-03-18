@@ -1,24 +1,25 @@
-# JAMStack personal blog - starter files
+# PROJETO MACAÓ - Social Sciences Student Cooperative 
+## Description
+This repository contains the source code of the Macao website, a student cooperative in social sciences that I founded at the Federal University of Sao Carlos in Brazil. The website was developed to serve as a central platform for students of politics, sociology, and anthropology to join the Macao project, share knowledge of social sciences, and offer services to civil society.
 
-These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.
+## Technologies Used
+HTML and CSS: The main site was built using HTML and CSS to ensure a simple and effective user experience.
+Eleventy: The blog, where students can publish articles, was developed using Eleventy, a static site generator. Eleventy makes it easy to create static sites using various template languages; in this case, we are using the Nunjucks template language.
+Decap CMS: It is an interface for posting blog articles, facilitating access for future participants and writers who want to host their texts on the site.
+Form2Channel Service: On the contact page, I implemented the Form2Channel service, which allows anyone to easily submit forms and send them to a Google Sheets spreadsheet. This ensures that we can collect contact information in an organized and efficient manner.
 
-The provided files are finished pages using regular HTML and CSS. The HTML files can be broken down into peices, and used to build out the different templates and partial files using a templating language of your choice.
+## Repository Structure
+/site: Contains the HTML and CSS files of the main Macao website.
+/public: This is where the output of the entire site by the Eleventy generator will be located.
+/src: Here you will find the source code of the blog, including Nunjucks templates, Markdown files for articles, and any Eleventy-related configuration.
+/_includes: Here you will find the base template, header, footer, and page indexes of the website.
+/assets: This directory contains static resources such as images, icons, and other files necessary for the functioning of the site.
+/admin-araracanga: This is where the Decap CMS configurations and its UI are located.
 
-The styling of the pages is already complete. That said, the `design-files` folder contains both a Figma file, and .jpg of a design if you want to try to build it from scratch. You do not need to use this design at all either, it depends on how you wish to approach the challenge.
+## Contributing
+Welcome contributions from anyone interested in improving the Macao experience. Feel free to open issues to report bugs, request new features, or propose improvements!
 
-The `src` folder contains files so that you can get your project up and running without worrying about content for posts/articles. That folder contains:
+## Contact
+If you have any questions, suggestions, or just want to get in touch with us, feel free to send an email to rafrngel@gmail.com.
 
-- HTML files to use as a base for the different page layouts. These can be turned into the templates that will be used.
-- CSS file for styling the pages
-- 5 blog articles in the `blog` folder
-- images and a logo in the `assets` folder
-
-The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
-
-## DevProjects Challenge
-
-As mentioned, these files are here to help get started with a DevProjects challenge. Please visit the [challenge page](#) to learn more about the challenge.
-
-## Tutorial
-
-You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+Thank you for visiting the Macao repository! I hope this website is useful and inspiring for students of social sciences.
